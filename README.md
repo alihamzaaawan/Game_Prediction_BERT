@@ -1,5 +1,10 @@
 # Game_Prediction_BERT
 
+NOTE: Model was Trained on FinalBert.ipynb and learner on learner1.ipynb
+
+For Testing the model, follow the instructions below
+
+
 1) Download the model 'model tf_model.h5' from the Google drive.
 
 Model link: https://drive.google.com/file/d/15c0N2YY0WLnW10PGnN5pg6CtqBfu5TwE/view?usp=sharing
