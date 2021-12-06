@@ -4,19 +4,17 @@ NOTE: Model was Trained on FinalBert.ipynb and learner on learner1.ipynb
 
 For Testing the model, follow the instructions below
 
+1) Download the file 'LoadModel.ipynb' from this repo.
 
-1) Download the model 'model tf_model.h5' from the Google drive.
+2) Open the file in google colab ( https://colab.research.google.com/?utm_source=scs-index )
 
-Model link: https://drive.google.com/file/d/15c0N2YY0WLnW10PGnN5pg6CtqBfu5TwE/view?usp=sharing
+3) Downlaod the model files 'tf_model.h5' and 'tf_model.preproc' from the google link below.
+Model folder link: https://drive.google.com/drive/folders/1rflKh7s9vz39MTFiyBU_D3wyfS_jVILq?usp=sharing
 
-2) Download the file 'LoadModel.ipynb' from this repo.
+4) Create a new folder named 'model' inside your project and Upload the files 'tf_model.h5' and 'tf_model.preproc' to the new folder created 'model' in your project.
 
-3) Open the file in google colab ( https://colab.research.google.com/?utm_source=scs-index )
+5) Make sure the upload is complete, it will appear before completeing in '/content/model/' path. (for loading we need to give the path of the folder and no just the .h5 file). After upload completion run the code.
 
-4) Upload the model 'tf_model.h5' to the project. (1)
 
-5) Once upload is complete it will show in '/content/tf_model.h5' path. (2)
 
-6) Execuate the code.
-
-<img width="359" alt="Screen Shot 2021-12-05 at 12 32 12 AM" src="https://user-images.githubusercontent.com/62678861/144740026-99b452c2-0e81-4a25-9afa-683f0953f196.png">
+<img width="341" alt="Screen Shot 2021-12-05 at 4 29 51 PM" src="https://user-images.githubusercontent.com/62678861/144771499-d8527b1b-325d-4360-8eef-e4dca5eebd59.png">
