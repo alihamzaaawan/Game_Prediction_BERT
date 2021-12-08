@@ -11,16 +11,16 @@ For Testing the model, follow the instructions below
 
 2) Open the file in google colab ( https://colab.research.google.com/?utm_source=scs-index )
 
-3) Downlaod the model files 'tf_model.h5' and 'tf_model.preproc' from the google link below.
+3) Download the model files 'tf_model.h5' and 'tf_model.preproc' from the google link below.
 Model folder link: https://drive.google.com/drive/folders/1rflKh7s9vz39MTFiyBU_D3wyfS_jVILq?usp=sharing
 
-4) You can upload the model files to your Goodle drive new folder named 'PublicBERTmodel', mount your Google dive in your Colab project (3rd button below **'Files'**) and copy the path of that folder from the project file directory and paste it in place of PATH  **predictor = ktrain.load_predictor('PATH')**
+4) You can upload the model files to your Google drive new folder named 'PublicBERTmodel', mount your Google drive in your Colab project (3rd button below **'Files'**) and copy the path of that folder from the project file directory and paste it in place of PATH  **predictor = ktrain.load_predictor('PATH')**
 **The above method is more reliable.** 
 The path would look like this ''/content/drive/MyDrive/PublicBERTmodel''
 
 OR
 
-4) Create a new folder named 'model' inside your project and Upload the files 'tf_model.h5' and 'tf_model.preproc' to the new folder created 'model' in your project. Make sure the upload is complete, it will appear before completeing in '/content/model/' path. (for loading we need to give the path of the folder and no just the .h5 file). After upload completion run the code.
+4) Create a new folder named 'model' inside your project and Upload the files 'tf_model.h5' and 'tf_model.preproc' to the new folder created 'model' in your project. Make sure the upload is complete, it will appear before completing in '/content/model/' path. (for loading we need to give the path of the folder and not just the .h5 file). After upload completion, run the code.
 
 
 
