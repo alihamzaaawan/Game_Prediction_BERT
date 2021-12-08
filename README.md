@@ -22,10 +22,8 @@ OR
 
 4) Create a new folder named 'model' inside your project and Upload the files 'tf_model.h5' and 'tf_model.preproc' to the new folder created 'model' in your project. Make sure the upload is complete, it will appear before completeing in '/content/model/' path. (for loading we need to give the path of the folder and no just the .h5 file). After upload completion run the code.
 
-**OR**, You can upload the model files to your drive folder, mount your dive here (3rd button below **'Files'**) and copy the path of that folder from here and paste it in  **predictor = ktrain.load_predictor('PATH')**
-This method is more reliable.
 
 
+<img width="341" alt="Screen Shot 2021-12-05 at 4 29 51 PM" src="https://user-images.githubusercontent.com/62678861/145143200-2efb6658-832e-430b-8f9f-d62465bf454a.png">
 
-<img width="341" alt="Screen Shot 2021-12-05 at 4 29 51 PM" src="https://user-images.githubusercontent.com/62678861/144771499-d8527b1b-325d-4360-8eef-e4dca5eebd59.png">
 
